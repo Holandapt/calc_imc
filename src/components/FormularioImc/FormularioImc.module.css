@@ -1,0 +1,43 @@
+.entradas {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.entrada{
+    margin-right: 6px;
+    margin-left: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+}
+
+.resultado  span{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.erro {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    color: red;
+    border-bottom: 2px solid red
+
+}

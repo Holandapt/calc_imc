@@ -1,0 +1,41 @@
+.resultado, span {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resultadoImc {
+    margin-top: 10px;
+    margin-bottom:4px;
+}
+
+.magro {
+    margin-top: 20px;
+    background-color: var(--corMagro);
+    border-radius: 10px;
+}
+
+.normal {
+    margin-top: 20px;
+    background-color: var(--corNormal);
+    border-radius: 10px;
+}
+
+.obeso {
+    margin-top: 20px;
+    background-color: var(--corObeso);
+    border-radius: 10px;
+}
+
+.sobrepeso {
+    margin-top: 20px;
+    background-color: var(--corSobrepeso);
+    border-radius: 10px;
+}
+
+.obesidadeGrave {
+    margin-top: 20px;
+    background-color: var(--corObesidadeGrave);
+    border-radius: 10px;
+}
