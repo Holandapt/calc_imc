@@ -8,7 +8,7 @@ function App() {
   
   const renderizaImc = (peso, altura) => {
     const calcImc = (peso / (altura * altura))
-    setImc(calcImc.toFixed(2))
+    setImc(calcImc)
   }
 
   return(
