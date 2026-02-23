@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css'
 
 import Medidas from './components/FormularioImc';
 import Classifica from './components/Classifica';
